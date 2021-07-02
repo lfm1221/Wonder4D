@@ -10,8 +10,10 @@ export default  class  extends React.Component {
         this.state = { 
             data: {
                 items: [
-                  { label: 'Web',title: '运维管理'},
-                  { label: 'Asset',title: '资产管理'}
+                  { label: 'Maintenance',title: '维修维护'},
+                  { label: 'Patrol',title: '巡检管理'},
+                  { label: 'Maintain',title: '保养管理'}
+//                  { label: 'maintain',title: '保养管理'}
 //                {label:  'Form'},
 //                {label:  'Form2'},
 //                {label:  'Form3'},
@@ -142,9 +144,9 @@ export default  class  extends React.Component {
                                 //width 要减去scroll padding  
                                 {type: 'click', prop: 'click', style: {align: 'center', width: '24'}}
                             ]}
-                        ]} 
+                    ]}
                         
-                    />
+                />
                
             </ScrollView>
           )

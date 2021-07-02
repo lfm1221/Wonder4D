@@ -16,7 +16,7 @@ export default class MyFacility extends React.Component {
         let approvedMainRec = 'true'
         let approvedMaintask = 'true'
         let approvedMainBackLog = 'true'
-        let host = 'http://whdt-0422.h.earth.cbim.ren/wechat/270/maintenance/index'
+        let host = 'http://whdt-0422.h.earth.cbim.ren/wechat/270/maintain/index'
 
         let url = host + '?' + userID + '&' + mobile + '&' + appid + '&' + noncestr + '&' + timestamp + '&' + signature + '&'
         + approvedMain + '&' + approvedMainRec + '&' + approvedMaintask + '&' + approvedMainBackLog

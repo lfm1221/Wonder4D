@@ -2,9 +2,10 @@ import { createStackNavigator, createAppContainer, createBottomTabNavigator} fro
 import Login from './main/Login'
 import Home from './main/Home'
 import Web from './demo/Web'
-import Asset from './demo/Asset'
+//import Asset from './demo/Asset'
 import Maintenance from './demo/Maintenance'
-import Facility from './demo/Facility'
+import Patrol from './demo/Patrol'
+import Maintain from './demo/Maintain'
 //import BottomBar from './BottomBar'
 //import Tree from './demo/Tree'
 //import Page from './demo/Page'
@@ -54,10 +55,9 @@ const AppNavigator = createStackNavigator({
     App: App,
     Home: Home,
     Web: Web,
-    Asset: Asset,
     Maintenance: Maintenance,
-    Facility: Facility,
-
+    Patrol: Patrol,
+    Maintain: Maintain,
 
 //     Tree: Tree,
 //     Page: Page,
